@@ -1,5 +1,6 @@
-import Head from 'next/head'
-import DynamicComp from 'components/DynamicComp';
+import Head from "next/head";
+import DynamicComp from "components/DynamicComp";
+import StaticComp from "components/StaticComp";
 
 export default function Home() {
   return (
@@ -12,7 +13,8 @@ export default function Home() {
       </Head>
       <main>
         <DynamicComp />
+        <StaticComp />
       </main>
     </>
-  )
+  );
 }
